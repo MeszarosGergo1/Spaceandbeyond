@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.4.1 (Python 3.13.5 on win32)" generated="2026-03-13T11:03:40.250959" rpa="false" schemaversion="5">
+<suite id="s1" name="Spaceandbeyond" source="C:\Users\MeszarosGergo\Desktop\Spaceandbeyond">
+<suite id="s1-s1" name="Loginkeyword" source="C:\Users\MeszarosGergo\Desktop\Spaceandbeyond\loginkeyword.robot">
+<test id="s1-s1-t1" name="Empty elements" line="49">
+<kw name="Open Browser" owner="Selenium2Library">
+<msg time="2026-03-13T11:03:40.438298" level="INFO">Opening browser 'chrome' to base url 'https://demo.testim.io/'.</msg>
+<arg>https://demo.testim.io/</arg>
+<arg>chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2026-03-13T11:03:40.437952" elapsed="0.890995"/>
+</kw>
+<kw name="Click Button" owner="Selenium2Library">
+<msg time="2026-03-13T11:03:41.329744" level="INFO">Clicking button '//*[@id="app"]/div/header/div/div[2]/ul/li/button'.</msg>
+<arg>//*[@id="app"]/div/header/div/div[2]/ul/li/button</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<status status="PASS" start="2026-03-13T11:03:41.329341" elapsed="0.059501"/>
+</kw>
+<kw name="Input Text" owner="Selenium2Library">
+<msg time="2026-03-13T11:03:41.389553" level="INFO">Typing text '' into text field '//*[@id="login"]/div[1]/input'.</msg>
+<arg>locator=//*[@id="login"]/div[1]/input</arg>
+<arg>text=</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2026-03-13T11:03:41.389171" elapsed="0.039743"/>
+</kw>
+<kw name="Input Password" owner="Selenium2Library">
+<msg time="2026-03-13T11:03:41.429471" level="INFO">Typing password into text field '//*[@id="login"]/div[2]/input'.</msg>
+<msg time="2026-03-13T11:03:41.450350" level="INFO">Temporally setting log level to: NONE</msg>
+<arg>locator=//*[@id="login"]/div[2]/input</arg>
+<arg>password=</arg>
+<doc>Types the given password into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2026-03-13T11:03:41.429188" elapsed="0.045392"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2026-03-13T11:03:42.475768" level="INFO">Slept 1 second.</msg>
+<arg>1s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2026-03-13T11:03:41.474893" elapsed="1.001120"/>
+</kw>
+<kw name="Click Button" owner="Selenium2Library">
+<msg time="2026-03-13T11:03:42.476625" level="INFO">Clicking button '//*[@id="app"]/div/section[3]/div/div[2]/div/nav/button[2]'.</msg>
+<arg>//*[@id="app"]/div/section[3]/div/div[2]/div/nav/button[2]</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<status status="PASS" start="2026-03-13T11:03:42.476371" elapsed="0.047285"/>
+</kw>
+<kw name="Page Should Contain Element" owner="Selenium2Library">
+<msg time="2026-03-13T11:03:42.530281" level="INFO">Current page contains element '//*[@id="login"]/div[1]/span[3]'.</msg>
+<arg>//*[@id="login"]/div[1]/span[3]</arg>
+<doc>Verifies that element ``locator`` is found on the current page.</doc>
+<status status="PASS" start="2026-03-13T11:03:42.523957" elapsed="0.006498"/>
+</kw>
+<kw name="Page Should Contain Element" owner="Selenium2Library">
+<msg time="2026-03-13T11:03:42.537616" level="INFO">Current page contains element '//*[@id="login"]/div[2]/span[3]'.</msg>
+<arg>//*[@id="login"]/div[2]/span[3]</arg>
+<doc>Verifies that element ``locator`` is found on the current page.</doc>
+<status status="PASS" start="2026-03-13T11:03:42.530738" elapsed="0.007186"/>
+</kw>
+<kw name="Close Browser" owner="Selenium2Library">
+<doc>Closes the current browser.</doc>
+<status status="PASS" start="2026-03-13T11:03:42.538329" elapsed="2.103084"/>
+</kw>
+<status status="PASS" start="2026-03-13T11:03:40.434827" elapsed="4.206976"/>
+</test>
+<status status="PASS" start="2026-03-13T11:03:40.278867" elapsed="4.365780"/>
+</suite>
+<status status="PASS" start="2026-03-13T11:03:40.254923" elapsed="4.391590"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="Spaceandbeyond" id="s1" pass="1" fail="0" skip="0">Spaceandbeyond</stat>
+<stat name="Loginkeyword" id="s1-s1" pass="1" fail="0" skip="0">Spaceandbeyond.Loginkeyword</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
