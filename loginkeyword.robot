@@ -53,6 +53,6 @@ Check empty credentials
     Input Password    locator=//*[@id="login"]/div[2]/input    password=
     Sleep    1s
     Click Button    //*[@id="app"]/div/section[3]/div/div[2]/div/nav/button[2]
-    Page Should Contain Element    //*[@id="login"]/div[1]/span[3]
-    Page Should Contain Element    //*[@id="login"]/div[2]/span[3]
+    Element Text Should Be    //*[@id="login"]/div[1]/span[3]    Name is a required field.
+    Element Text Should Be    //*[@id="login"]/div[2]/span[3]    Password is a required field.
     Close Browser
